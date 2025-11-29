@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "cloud-dev-adf-fs"
+        },
+        "ls_filesym_password": {
+            "value": ""
+        },
+        "ls_sqlserver_password": {
+            "value": ""
+        },
+        "ls_adlgen2_accountKey": {
+            "value": ""
+        },
+        "ls_filesym_properties_typeProperties_host": {
+            "value": "G:\\global"
+        },
+        "ls_filesym_properties_typeProperties_userId": {
+            "value": "sebastian"
+        },
+        "ls_sqlserver_properties_typeProperties_server": {
+            "value": "windows02vm"
+        },
+        "ls_sqlserver_properties_typeProperties_database": {
+            "value": "devdb"
+        },
+        "ls_sqlserver_properties_typeProperties_userName": {
+            "value": "sebastian"
+        },
+        "ls_adlgen2_properties_typeProperties_url": {
+            "value": "https://clouddevadl.dfs.core.windows.net/"
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}
